@@ -42,10 +42,10 @@ public class Main {
 			switch (opcion) {
 			// En el caso de que se quiera hacer un barrido
 			case "1":
-				disparador.leerBbddConUnHilo();
+				disparador.leerConUnHilo();
 				break;
 			case "2":
-				disparador.leerBbddConVariosHilos();
+				disparador.leerConVariosHilos();
 				break;
 			case "0":
 				System.out.println("Fin del programa");
@@ -63,7 +63,7 @@ public class Main {
 	 * consulta
 	 */
 
-	public void leerBbddConUnHilo() {
+	public void leerConUnHilo() {
 
 		Hilo miHilo;
 		Semaphore semaforo = new Semaphore(1);
@@ -102,7 +102,7 @@ public class Main {
 	 * la consulta
 	 */
 
-	public void leerBbddConVariosHilos() {
+	public void leerConVariosHilos() {
 
 		Hilo miHilo;
 		Semaphore semaforo = new Semaphore(1);
