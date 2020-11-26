@@ -47,4 +47,4 @@ Con eso clonará el repositorio en una carpeta local
 
 ## APUNTES FINALES
 
-Son un par de sencillos programas para poder tener un primer contacto con un ejemplo de funcionamiento de hilos muy sencillo e intuitivo.
+Son un par de sencillos programas para poder tener un primer contacto con un ejemplo de funcionamiento de hilos muy sencillo e intuitivo. Para cualquier duda de las funcionalidades del código se puede consultar el javadoc en la carpeta doc
