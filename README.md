@@ -36,7 +36,7 @@ Con eso clonará el repositorio en una carpeta local
 
    1.  Para ejecutar cada uno de los proyectos se deberá ejecutar la clase **Main** que se encuentra en el paquete controllers en cada proyecto. Si se utiliza un gestor de dependencias se necesitará el archivo **MySQL Connector/J** que se podrá descargar en el enlace (https://mvnrepository.com/artifact/mysql/mysql-connector-java.) O bien, si no usamos un gestor de dependencias, el archivo se encontrará físicamente en la carpeta **lib** de cada uno de los proyectos. 
 
-   2. Bastaría con enlazarlo. En el caso de Eclipse, nos iríamos al proyecto, botón derecho Properties -> Java build path, ahí seleccionamos el conector que tenemos y pulsamos remove para eliminarlo. Para insertarlo en la ruta correcta pulsamos Add External JARs.. y dentro de la carpeta lib seleccionamos el archivo conector, para enlazar el ide con la bbdd mySql.
+    2. El archivo ya se encuentra enlazado, si queremos cambiar la ruta del conector. En el caso de Eclipse, nos iríamos al proyecto, botón derecho Properties -> Java build path, ahí seleccionamos el conector que tenemos y pulsamos remove para eliminarlo. Para insertarlo en la ruta correcta pulsamos Add External JARs.. y dentro de la carpeta lib seleccionamos el archivo conector, para enlazar el ide con la bbdd mySql.
 
 2. Para ejecutar el .jar
 
